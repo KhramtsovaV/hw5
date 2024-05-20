@@ -6,10 +6,15 @@ public class Transactions {
         CreditCard card2 = new CreditCard(2, "2345", 1234);
         CreditCard card3 = new CreditCard(3, "3456", 1723);
 
+        card1.printInfo();
+        card2.printInfo();
+        card3.printInfo();
+        System.out.println();
 
         card1.deposit(500.0);
         card2.deposit(1000.0);
         card3.withDraw(1500.0);
+        System.out.println();
 
         card1.printInfo();
         card2.printInfo();

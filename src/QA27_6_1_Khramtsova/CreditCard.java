@@ -35,8 +35,9 @@ class CreditCard {
     }
 
     public void printInfo() {
-        System.out.println("Credit card " + accountNumber);
-        System.out.println("ID: " + id);
-        System.out.println("Current amount in the account: " + balance);
+        System.out.print("Credit card " + accountNumber + " ");
+        System.out.print("ID: " + id + " ");
+        System.out.print("Current amount in the account: " + balance);
+        System.out.println();
     }
 }
