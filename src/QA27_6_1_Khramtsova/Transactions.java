@@ -5,7 +5,7 @@ public class Transactions {
         CreditCard card1 = new CreditCard(1, "1234", 10);
         CreditCard card2 = new CreditCard(2, "2345", 1234);
         CreditCard card3 = new CreditCard(3, "3456", 1723);
-        
+
 
         card1.deposit(500.0);
         card2.deposit(1000.0);
