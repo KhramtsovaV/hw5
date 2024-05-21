@@ -3,11 +3,11 @@ package QA27_6_2_Khramtsova;
 import java.io.PrintStream;
 
 public class Flat {
-    int id;
-    double area;
-    double monthlyCost;
-    Client client;
-    FlatOwner flatOwner;
+   private final int id;
+    private double area;
+    private double monthlyCost;
+    private Client client;
+    private FlatOwner flatOwner;
 
     public Flat(int id, double area, double monthlyCost) {
         this.id = id;
@@ -22,6 +22,7 @@ public class Flat {
         this.client = client;
         this.flatOwner = flatOwner;
     }
+
     public String getInfo() {
         String info = "Flat ID: " + id + "\nArea: " + area + " sq.m" + "\nMonthly Cost: $" + monthlyCost;
 

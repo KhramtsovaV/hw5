@@ -4,9 +4,9 @@ package QA27_6_2_Khramtsova;
 import java.io.PrintStream;
 
 class FlatOwner {
-     int id;
-     String name;
-     String contactNumber;
+    private final int id;
+    private  String name;
+    private  String contactNumber;
 
      public FlatOwner(int id, String name, String contactNumber) {
     this.id = id;
