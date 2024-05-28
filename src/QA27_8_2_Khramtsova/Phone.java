@@ -23,11 +23,11 @@ class Phone {
     }
 
     public void receiveCall(String callerName) {
-        System.out.println("Звонит " + callerName);
+        System.out.println("Call " + callerName);
     }
 
     public void receiveCall(String callerName, String callerNumber) {
-        System.out.println("Звонит " + callerName + ", номер телефона: " + callerNumber);
+        System.out.println("Call " + callerName + ", phone number: " + callerNumber);
     }
 
     public String getNumber() {
@@ -35,7 +35,7 @@ class Phone {
     }
 
     public void sendMessage(String... numbers) {
-        System.out.println("Отправка сообщения на следующие номера:");
+        System.out.println("Send message to:");
         for (String num : numbers) {
             System.out.println(num);
         }
